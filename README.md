@@ -1,6 +1,6 @@
 # funniversaries-npm
 
-Fun Anniversary npm library
+Fun Anniversary npm library, WASM built from the rust lib (https://crates.io/crates/funniversaries)
 
 ## Dev
 
