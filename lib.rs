@@ -9,7 +9,7 @@ static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 #[wasm_bindgen]
 pub fn generate_anniversaries(date: &str) -> JsValue {
-    let mut anniversaries = funniversaries_lib::find_anniversaries_future(date);
+    let mut anniversaries = funniversaries::find_anniversaries_future(date);
 
     // Sort people by age
     anniversaries.sort_by(|a, b| b.date.cmp(&a.date));
