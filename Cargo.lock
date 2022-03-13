@@ -54,11 +54,11 @@ dependencies = [
 
 [[package]]
 name = "funniversaries"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "chrono",
  "console_error_panic_hook",
- "funniversaries 0.0.3",
+ "funniversaries 0.0.4",
  "wasm-bindgen",
  "wasm-bindgen-test",
  "web-sys",
@@ -67,9 +67,9 @@ dependencies = [
 
 [[package]]
 name = "funniversaries"
-version = "0.0.3"
+version = "0.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae9d267e7e6f635e9d92fc63cc1d51f274cdb7a001805ce7fb4d77c6b8521c0a"
+checksum = "e9e8445627dd4fe74fe518b9f3bc6d193efa27aa0570af1dae1419409381cc28"
 dependencies = [
  "chrono",
  "serde",
