@@ -73,7 +73,7 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
-      - run: rustup component add cargo-audit
+      - run: cargo install cargo-audit
       - uses: actions-rs/cargo@v1
         with:
           command: audit
