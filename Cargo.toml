@@ -20,7 +20,7 @@ path = "lib.rs"
 default = ["console_error_panic_hook"]
 
 [dependencies]
-funniversaries = { version = "0.0.1" }
+funniversaries = { version = "0.0.3" }
 chrono = { version = "0.4", features = ["serde", "wasmbind"] }
 wasm-bindgen = { version = "0.2.63", features = ["serde-serialize"] }
 web-sys = { version = "0.3.55", features = ['console'] }
