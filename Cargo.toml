@@ -1,6 +1,6 @@
 [package]
 name = "funniversaries"
-version = "0.0.3"
+version = "0.1.0"
 authors = ["Maël Sicard-Cras <mael.sicardcras@gmail.com>"]
 description = "Fun Anniversaries generator npm library, WASM built from the rust lib funniversaries"
 edition = "2018"
@@ -20,7 +20,7 @@ path = "lib.rs"
 default = ["console_error_panic_hook"]
 
 [dependencies]
-funniversaries = { version = "0.0.4" }
+funniversaries = { version = "0.1.1" }
 chrono = { version = "0.4", features = ["serde", "wasmbind"] }
 wasm-bindgen = { version = "0.2.63", features = ["serde-serialize"] }
 web-sys = { version = "0.3.55", features = ['console'] }
